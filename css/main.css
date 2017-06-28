@@ -3,7 +3,7 @@ GENERAL
 ***********/
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
 #wrapper {
@@ -43,10 +43,10 @@ header {
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif;
+  font-family: 'Droid Sans', 'Changa One', sans-serif;
   margin: 15px 0;
   font-size: 1.75em;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 0.8em;
 }
 
@@ -105,7 +105,7 @@ footer {
 
 
 /***********
-PAGE: PORTFOLIO
+PAGE: HOME
 ***********/
 
 #gallery {
@@ -116,17 +116,17 @@ PAGE: PORTFOLIO
 
 #gallery li {
   float: left;
-  width: 45%;
+  width: 65%;
   margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
+  background-color: #E3E5E6;
+  color: #605F5E;
 }
 
 #gallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #bdc3c7;
+  color: #605F5E;
 }
 
 
@@ -151,7 +151,7 @@ PAGE: CONTACT
   padding: 0;
   margin: 0;
   font-size: 0.9em;
-}  
+}
 
 .contact-info a {
   display: block;
@@ -174,6 +174,10 @@ PAGE: CONTACT
   background-image: url('../img/twitter.png')
 }
 
+.contact-info li.linkedin a {
+  background-image: url('../img/linkedin.png')
+}
+
 
 
 /***********
@@ -183,18 +187,18 @@ COLORS
 /* site body */
 body {
   background-color: #fff;
-  color: #999;
+  color: #605F5E;
 }
 
 /* green header */
 header {
-  background: #5ab47b;
-  border-color: #599a68;
+  background: #247BA0;
+  border-color: #1F487E;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #247BA0;
 }
 
 /* logo text */
@@ -204,7 +208,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #247BA0;
 }
 
 /* nav links */
@@ -214,5 +218,5 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #31673f;
+  color: #1F487E;
 }
